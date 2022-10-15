@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="png" href="images/shortcut.png" />
+    <title>Mercado Digital - El portal de compra-venta por excelencia</title>
+
+    <!-- fuente awesome (iconos) link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+
+    <!-- link del archivo css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- inicio del header  -->
+
+    <header>
+      <div class="header-1">
+        <a href="index.html" class="logo">
+          <img src="images/mercadodigital.png" /><span>Mercado Digital</span>
+        </a>
+
+        <div class="form-container">
+          <form>
+            <input type="search" placeholder="Buscar productos" id="search" />
+            <label for="search" class="fas fa-search"></label>
+          </form>
+        </div>
+      </div>
+
+      <div class="header-2">
+        <nav class="navbar">
+          <ul>
+            <li><a class="active" href="index.html">Inicio</a></li>
+            <li><a href="productos.html">Catálogo</a></li>
+            <li><a href="registro.html">Registro</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- fin del header -->
+    <!-- REGISTRO -->
+    <div id="registro">
+      <div>
+        <div class="titulos">
+          <strong>Registro</strong>
+        </div>
+        <div class="already-login">
+          <strong><a href="#">¿Ya tiene cuenta?</a></strong>
+        </div>
+        <form action="formRegistro" autocomplete="on">
+          <label for="email">Introduzca su email:</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="alguien@email.com"
+            required
+          />
+          <label for="password">Introduzca su Contraseña:</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Contraseña"
+            required
+          />
+          <label for="password-repeat">Repita su Contraseña:</label>
+          <input
+            type="password"
+            id="password-repeat"
+            placeholder="Contraseña"
+            required
+          />
+          <button class="btn register-btn" type="submit">Registrarse</button>
+          <div class="divcaptcha">
+            <label for="Captcha">Captcha</label>
+            <p id="numero"></p>
+            <input
+              type="number"
+              id="escribirCaptcha"
+              placeholder="Ingrese el Número"
+              required
+              maxlength="4"
+            />
+            <input
+              type="button"
+              id="botonCaptcha"
+              value="Validar"
+              class="btn"
+            />
+            <p id="confirmacion"></p>
+          </div>
+          <input type="checkbox" name="acepto" value="aceptar" class="check-terms" required/><span class="accept-terms">  Acepto los
+          <strong>términos y condiciones</strong> de Mercado Digital.</span>
+        </form>
+      </div>
+    </div>
+
+    <!-- LOGIN
+    <div id="login">
+      <div>
+        <div class="titulos">
+          <strong>Login</strong>
+        </div>
+        <div class="nocreado">
+          <strong>¿No tienes cuenta?</strong>
+        </div>
+        <hr />
+        <form action="formLogin">
+          <div class="cartel">
+            <label for="email">Introduzca su email:</label>
+          </div>
+
+          <div class="inputs">
+            <input type="email" id="email" placeholder="alguien@email.com" />
+          </div>
+
+          <div class="cartel">
+            <label for="password">Introduzca su Contraseña:</label>
+          </div>
+
+          <div class="inputs">
+            <input type="password" id="password" placeholder="Contraseña" />
+          </div>
+
+          <button class="btn" type="submit">Ingresar</button>
+        </form>
+      </div>
+    </div>
+  -->
+
+    <!-- inicio del footer  -->
+
+    <footer class="footer">
+      <div class="box-container">
+        <div class="box">
+          <p>
+            Mercado Digital es una compañía de tecnología que ofrece servicios
+            vinculados principalmente al comercio electrónico y a los pagos
+            digitales. Quien quiera usar nuestros servicios, deberá completar el
+            formulario de registro con los datos que le sean requeridos. Mercado
+            Digital no se hace cargo de rupturas de paquetes, extravíos por
+            parte de la empresa de envío a cargo.
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>Links</h3>
+          <a href="index.html">Inicio</a>
+          <a href="productos.html">Catálogo</a>
+          <a href="registro.html">Registro</a>
+        </div>
+
+        <div class="box">
+          <h3>Contactanos</h3>
+          <p>
+            <i class="fas fa-home"></i>
+            Constitución 1532 - Depto. 6 - Tandil, Bs. As, Argentina
+          </p>
+          <p>
+            <i class="fas fa-phone"></i>
+            +5492324552886
+          </p>
+          <p>
+            <i class="fas fa-globe"></i>
+            janoandreutsib@hotmail.com
+          </p>
+        </div>
+      </div>
+
+      <h1 class="rights">
+        Sitio creado por <span>Jano y Reutsib</span> | Copyright © 2022 todos los derechos
+        reservados.
+      </h1>
+    </footer>
+
+    <!-- fin del footer -->
+    
+  </body>
+</html>
