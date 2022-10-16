@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
 
 :root {
-  --blue: rgb(34, 74, 131) ;
+  --blue: rgb(43, 79, 131) ;
 }
 
 * {
@@ -20,7 +20,7 @@ html {
 .btn {
   height: 4rem;
   width: 14rem;
-  background: rgb(2, 151, 157);
+  background: rgba(35, 65, 131, 0.995);
   color: #fff;
   font-size: 2rem;
   cursor: pointer;
@@ -45,7 +45,7 @@ html {
   font-size: 2rem;
   padding: 1rem 6rem;
   color: #fff;
-  background: rgb(2, 151, 157);
+  background: rgb(49, 98, 150);
   border-top-right-radius: 3rem;
   display: inline-block;
 }
@@ -105,7 +105,7 @@ header .header-1 .form-container form label {
 }
 
 header .header-1 .form-container form label:hover {
-  color: rgb(155, 216, 245);
+  color: rgb(45, 76, 142);
 }
 
 header .header-2 {
