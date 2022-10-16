@@ -495,14 +495,14 @@ input .accept-terms {
 
 .table-title {
   position: relative;
-  width: 15%;
+  width: 35%;
   top: -0.3em;
   text-align: center;
-  left: 42.5%;
+  left: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3em;
+  font-size: 40px;
   background-color: var(--blue);
   color: #f0f0f0;
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
