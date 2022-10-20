@@ -25,6 +25,40 @@
   background-color: rgb(38, 101, 237);
 }
 
+/* back to top */
+
+#backtotop{
+  z-index: 999;
+  color: rgba(35, 65, 131, 0.995);
+  display:inline-block; 
+  position:fixed; 
+  visibility:hidden; 
+  bottom:20px; 
+  right:95%; 
+  width:36px; 
+  height:36px; 
+  line-height:36px; 
+  font-size:16px; 
+  text-align:center; 
+  opacity:.2;
+  background-color: rgb(38, 101, 237);
+  border-radius: 5px;
+}
+#backtotop i{
+  display:block; 
+  width:100%; 
+  height:100%; 
+  line-height:inherit;
+}
+
+#backtotop.visible{
+  visibility:visible; 
+  opacity:.5;
+}
+#backtotop:hover{
+  opacity:1;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -59,7 +93,7 @@ html {
   padding-top: 7rem;
   width: 95%;
   border-bottom: 0.2rem solid rgba(0, 0, 0, 0.3);
-  margin: 0 auto;
+  margin: 0;
 }
 
 .heading span {
