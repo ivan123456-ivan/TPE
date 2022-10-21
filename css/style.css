@@ -173,7 +173,7 @@ html {
 
 .btn {
   height: 4rem;
-  width: 14rem;
+  width: 18rem;
   background: rgba(35, 65, 131, 0.995);
   color: #fff;
   font-size: 2rem;
@@ -185,6 +185,8 @@ html {
 .btn:hover {
   letter-spacing: 0.2rem;
   opacity: 0.8;
+  width: 20rem;
+  height: 4.1rem;
   background-color: rgb(38, 101, 237);
 }
 
@@ -583,6 +585,7 @@ input .accept-terms {
   line-height: 4rem;
   text-align: center;
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+  border-radius: 6px;
 }
 
 .gallery .controls .btn.button-active {
@@ -590,17 +593,17 @@ input .accept-terms {
 }
 
 .gallery .image-container {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 500px);
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .gallery .image-container .box {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin: 1.5rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.3);
   flex: 1 1 30rem;
 }
@@ -703,4 +706,31 @@ td {
 .table-women {
   position: relative;
   width: 25em;
+}
+
+/*sistema de filtrado de categorías*/
+
+
+[value="Todos"]:checked ~ .image-container .box[data-category]{
+  display: flex;
+}
+
+[value="Smartphones"]:checked ~ .image-container .box:not([data-category~="Smartphones"]),
+[value="Indumentaria"]:checked ~ .image-container .box:not([data-category~="Indumentaria"]),
+[value="Juguetes"]:checked ~ .image-container .box:not([data-category~="Juguetes"]),
+[value="Hardware"]:checked ~ .image-container .box:not([data-category~="Hardware"]){
+  display: none;
+}
+
+[value="Todos"]:checked ~ .controls [for="Todos"],
+[value="Smartphones"]:checked ~ .controls [for="Smartphones"],
+[value="Indumentaria"]:checked ~ .controls [for="Indumentaria"],
+[value="Juguetes"]:checked ~ .controls [for="Juguetes"],
+[value="Hardware"]:checked ~ .controls [for="Hardware"]{
+    background: rgb(38, 101, 237);
+    color: #fff;
+}
+
+input[type="radio"]{
+  display: none;
 }
