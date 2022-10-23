@@ -159,7 +159,7 @@
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: monospace,"Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -599,6 +599,13 @@ input .accept-terms {
   justify-content: center;
 }
 
+.gallery #this {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .gallery .image-container .box {
   display: flex;
   align-items: center;
@@ -715,15 +722,22 @@ td {
 
 /*sistema de filtrado de categorías*/
 
-
-[value="Todos"]:checked ~ .image-container .box[data-category]{
+[value="Todos"]:checked ~ .image-container .box[data-category] {
   display: flex;
 }
 
-[value="Smartphones"]:checked ~ .image-container .box:not([data-category~="Smartphones"]),
-[value="Indumentaria"]:checked ~ .image-container .box:not([data-category~="Indumentaria"]),
-[value="Juguetes"]:checked ~ .image-container .box:not([data-category~="Juguetes"]),
-[value="Hardware"]:checked ~ .image-container .box:not([data-category~="Hardware"]){
+[value="Smartphones"]:checked
+  ~ .image-container
+  .box:not([data-category~="Smartphones"]),
+[value="Indumentaria"]:checked
+  ~ .image-container
+  .box:not([data-category~="Indumentaria"]),
+[value="Juguetes"]:checked
+  ~ .image-container
+  .box:not([data-category~="Juguetes"]),
+[value="Hardware"]:checked
+  ~ .image-container
+  .box:not([data-category~="Hardware"]) {
   display: none;
 }
 
@@ -731,11 +745,11 @@ td {
 [value="Smartphones"]:checked ~ .controls [for="Smartphones"],
 [value="Indumentaria"]:checked ~ .controls [for="Indumentaria"],
 [value="Juguetes"]:checked ~ .controls [for="Juguetes"],
-[value="Hardware"]:checked ~ .controls [for="Hardware"]{
-    background: rgb(38, 101, 237);
-    color: #fff;
+[value="Hardware"]:checked ~ .controls [for="Hardware"] {
+  background: rgb(38, 101, 237);
+  color: #fff;
 }
 
-input[type="radio"]{
+input[type="radio"] {
   display: none;
 }
