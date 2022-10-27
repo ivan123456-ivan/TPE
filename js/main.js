@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; 
 //captcha
 let codigocaptcha;
 codigocaptcha = Math.floor(Math.random() * 9999) + 1;
@@ -22,8 +22,5 @@ function validacion() {
         incorrecto.innerText = "Verificación Erronea";
         if (document.getElementById("confirmacion") == incorrecto) {
             incorrecto.classList.remove('conf-yes');
-            incorrecto.classList.add('conf-not');
-        }
-    }
-
-}
+            incorrecto.classList.add('conf-not');}
+   }}
