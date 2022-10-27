@@ -8,3 +8,4 @@ tableTitle.addEventListener("click", (e)=>{
     if (sizeTable.classList.contains("visibility")) sizeTable.classList.remove("visibility");
     else sizeTable.classList.add("visibility");
 })
+
