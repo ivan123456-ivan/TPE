@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="png" href="images/favicon.png" />
-    <title>Mercado Digital - Catálogo</title>
 
-    <!-- fuente awesome (iconos) link  -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="png" href="images/favicon.png" />
+  <title>Mercado Digital - Catálogo</title>
 
-    <!-- link del archivo css  -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body id="top">
-    <!-- inicio del header  -->
+  <!-- fuente awesome (iconos) link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
 
-    <header>
-      <div class="header-1">
-        <a href="index.html" class="logo">
-          <img src="images/mercadodigital.png" /><span>Mercado Digital</span>
-        </a>
+  <!-- link del archivo css  -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-        <div class="form-container">
-          <form>
-            <input type="search" placeholder="Buscar productos" id="search" />
-            <label for="search" class="fas fa-search"></label>
-          </form>
-        </div>
+<body id="top">
+  <!-- inicio del header  -->
+
+  <header>
+    <div class="header-1">
+      <a href="index.html" class="logo">
+        <img src="images/mercadodigital.png" /><span>Mercado Digital</span>
+      </a>
+
+      <div class="form-container">
+        <form>
+          <input type="search" placeholder="Buscar productos" id="search" />
+          <label for="search" class="fas fa-search"></label>
+        </form>
       </div>
+    </div>
 
-      <div class="header-2">
-        <nav class="navbar">
-          <ul>
-            <li><a class="active" href="index.html">Inicio</a></li>
-            <li><a href="productos.html">Catálogo</a></li>
-            <li><a href="registro.html">Registro</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <div class="header-2">
+      <nav class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Catálogo</a></li>
+          <li><a href="registro.html">Registro</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- fin del header -->
+  <!-- fin del header -->
 
-    <!-- inicio del section  -->
+  <!-- inicio del section  -->
 
-    <section class="gallery" id="gallery">
-      <h1 class="heading"><span> Productos </span></h1>
+  <section class="gallery" id="gallery">
+    <h1 class="heading"><span> Productos </span></h1>
 
     <input type="radio" id="Todos" name="categories" value="Todos" checked>
     <input type="radio" id="Smartphones" name="categories" value="Smartphones">
@@ -56,17 +55,17 @@
     <input type="radio" id="Juguetes" name="categories" value="Juguetes">
     <input type="radio" id="Hardware" name="categories" value="Hardware">
 
-      <div class="controls">
+    <div class="controls">
       <label for="Todos" class="btn button-active">Todos</label>
       <label for="Smartphones" id="aca" class="btn">Smartphones</label>
       <label for="Indumentaria" class="btn">Indumentaria</label>
       <label for="Juguetes" class="btn">Juguetes</label>
       <label for="Hardware" class="btn">Hardware</label>
-      </div>
+    </div>
 
-      <div class="image-container">
-        <div class="box" data-category="Smartphones">
-          <a href="./details/s20.html">
+    <div class="image-container">
+      <div class="box" data-category="Smartphones">
+        <a href="./details/s20.html">
           <div class="image">
             <img src="./images/samsung.png" alt="Samsung" />
           </div>
@@ -82,511 +81,508 @@
                 <i class="fas fa-star"></i>
               </div>
             </div>
-          </a>
-          </div>
-        </div>
-        <div class="box" data-category="Hardware">
-          <a href="./details/FitbitVersa.html">
-          <div class="image">
-            <img src="images/smartwatch Fitbit Versa ($71.000).webp" alt="smatwhatch" />
-          </div>
-          <div class="info">
-            <h3>Smartwatch Fibit Versa </h3>
-            <div class="subInfo">
-              <strong class="price">$71.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-        <div class="box" data-category="Hardware">
-          <a href="./details/FitbitVersa2.html">
-          <div class="image">
-            <img src="images/smartwatch Fitbit Versa 2 ($50.000).webp" alt="smartwhatch fibit"/>
-          </div>
-          <div class="info">
-            <h3>Fitbit Versa 2</h3>
-            <div class="subInfo">
-              <strong class="price">$50.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-        <div class="box" data-category="Hardware">
-          <a href="./details/pcintel.html">
-          <div class="image">
-            <img src="images/pc computadora armada intel core ($280.000).webp" alt="computadora armada"/>
-          </div>
-          <div class="info">
-            <h3>PC Computadora Armada Intel Core </h3>
-            <div class="subInfo">
-              <strong class="price">$280.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-        <div class="box" data-category="Hardware">
-          <a href="./details/pc_esc.html">
-          <div class="image">
-            <img src="images/computadora de escritotio completa ($170.800).webp"  alt="computadora de escritorio"/>
-          </div>
-          <div class="info">
-            <h3>Computadora de Escritorio Completa</h3>
-            <div class="subInfo">
-              <strong class="price">$170.800</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-        <div class="box" data-category="Smartphones" >
-           <a href="./details/celg71.html">
-           <div class="image">
-            <img src="images/celular motorola G71 5G 128GB azul ($85.000).jpg" alt="celular motorola G71"/>
-             </div>
-             <div class="info">
-              <h3>Celular Motorola G71</h3>
-              <div class="subInfo">
-               <strong class="price">$85.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </a>
-          </div>
-        </div>
-        <div class="box" data-category="Smartphones">
-          <div class="image">
-            <img src="images/celular apple iPhone 13 5G 256GB Azul ($660.999).jpg" alt="celular apple"/>
-          </div>
-          <div class="info">
-            <h3>Celular Apple IPhone 13</h3>
-            <div class="subInfo">
-              <strong class="price">$660.999</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Smartphones">
-          <div class="image">
-            <img src="images/note9.png" alt="Note9">
-          </div>
-          <div class="info">
-            <h3>Xiaomi Redmi Note 9</h3>
-            <div class="subInfo">
-              <strong class="price">$129.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Hardware">
-          <div class="image">
-            <img src="images/rog-strix-scar.png" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Asus Rog Strix Scar 15</h3>
-            <div class="subInfo">
-              <strong class="price">$1.100.100</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/airmax.png" alt="Nike Air Max" />
-          </div>
-          <div class="info">
-            <h3>Nike Air Max 90G</h3>
-            <div class="subInfo">
-              <strong class="price">$49.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/campera canguro ($6.000).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Campera Canguro de Hombre</h3>
-            <div class="subInfo">
-              <strong class="price">$6.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/itachi sasuke- remera algodon ($3.400).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Remera de Algodon - Itachi Sasuke</h3>
-            <div class="subInfo">
-              <strong class="price">$3.400</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/remera camiseta deportiva ($1.900).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Camiseta Deportiva </h3>
-            <div class="subInfo">
-              <strong class="price">$1.900</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/shots con calza de hombre ($7.200).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Shots Calza Hombre</h3>
-            <div class="subInfo">
-              <strong class="price">$7.200</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/pantalon babucha engomada ($9.000).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Babucha Engomada</h3>
-            <div class="subInfo">
-              <strong class="price">$9.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/zapatillas galaxy 6 ($17.000).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Zapatillas Galaxy 6</h3>
-            <div class="subInfo">
-              <strong class="price">$17.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/zapatillas nike downshifter 11 de mujer ($28.000).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Zapatillas Nike Downshifter</h3>
-            <div class="subInfo">
-              <strong class="price">$28.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/zapatillas nike revolution ($25.000).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Zapatillas Nike Revolution</h3>
-            <div class="subInfo">
-              <strong class="price">$25.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/remera ranglan blanca-negra ($3.000).webp" alt="Asus Rog Notebook" />
-          </div>
-          <div class="info">
-            <h3>Remera Blanca-Negra </h3>
-            <div class="subInfo">
-              <strong class="price">$3.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/airmax.png" alt="Nike Air Max" />
-          </div>
-          <div class="info">
-            <h3>Nike Air Max 90G</h3>
-            <div class="subInfo">
-              <strong class="price">$54.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/pantalones.png" alt="Jeans Hombre" />
-          </div>
-          <div class="info">
-            <h3>Jeans Hombre Rectos Clasicos</h3>
-            <div class="subInfo">
-              <strong class="price">$6.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/shirt.png" alt="Remera Mujer" />
-          </div>
-          <div class="info">
-            <h3>Remera Blanca de Mujer</h3>
-            <div class="subInfo">
-              <strong class="price">$3.500</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Indumentaria">
-          <div class="image">
-            <img src="images/adidas-ultraboost.png" alt="Adidas Ultraboost" />
-          </div>
-          <div class="info">
-            <h3>Adidas Ultraboost 21</h3>
-            <div class="subInfo">
-              <strong class="price">$50.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Hardware">
-          <div class="image">
-            <img
-              src="images/rog-strix-3090.png"
-              alt="Placa de Video Asus ROG Strix 3090"
-            />
-          </div>
-          <div class="info">
-            <h3>Placa de Video Asus ROG Strix 3090</h3>
-            <div class="subInfo">
-              <strong class="price">$540.000</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Juguetes">
-          <div class="image">
-            <img src="images/lego.png" alt="Legos" />
-          </div>
-          <div class="info">
-            <h3>Caja de Legos para armar</h3>
-            <div class="subInfo">
-              <strong class="price">$8.350</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="box" data-category="Juguetes">
-          <div class="image">
-            <img src="" alt="auto a control remoto" />
-          </div>
-          <div class="info">
-            <h3>Auto a Radio Control Remoto</h3>
-            <div class="subInfo">
-              <strong class="price">$15.350</strong>
-              <div class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star-half-alt"></i>
-                <i id="vacio" class="fas fa-star"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-  
-      <div class="box" data-category="Juguetes">
+        </a>
+      </div>
+    </div>
+    <div class="box" data-category="Hardware">
+      <a href="./details/FitbitVersa.html">
         <div class="image">
-          <img src="" alt="dino a pila" />
+          <img src="images/smartwatch Fitbit Versa ($71.000).webp" alt="smatwhatch" />
         </div>
         <div class="info">
-          <h3>Dinosaurio a pila</h3>
+          <h3>Smartwatch Fibit Versa </h3>
           <div class="subInfo">
-            <strong class="price">$6.300</strong>
+            <strong class="price">$71.000</strong>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i id="vacio" class="fas fa-star"></i>
+            </div>
+          </div>
+      </a>
+    </div>
+    </div>
+    <div class="box" data-category="Hardware">
+      <a href="./details/FitbitVersa2.html">
+        <div class="image">
+          <img src="images/smartwatch Fitbit Versa 2 ($50.000).webp" alt="smartwhatch fibit" />
+        </div>
+        <div class="info">
+          <h3>Fitbit Versa 2</h3>
+          <div class="subInfo">
+            <strong class="price">$50.000</strong>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
-              <i class="fas fa-star-half-alt"></i>
+              <i id="vacio" class="fas fa-star"></i>
             </div>
+          </div>
+      </a>
+    </div>
+    </div>
+    <div class="box" data-category="Hardware">
+      <a href="./details/pcintel.html">
+        <div class="image">
+          <img src="images/pc computadora armada intel core ($280.000).webp" alt="computadora armada" />
+        </div>
+        <div class="info">
+          <h3>PC Computadora Armada Intel Core </h3>
+          <div class="subInfo">
+            <strong class="price">$280.000</strong>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i id="vacio" class="fas fa-star"></i>
+            </div>
+          </div>
+      </a>
+    </div>
+    </div>
+    <div class="box" data-category="Hardware">
+      <a href="./details/pc_esc.html">
+        <div class="image">
+          <img src="images/computadora de escritotio completa ($170.800).webp" alt="computadora de escritorio" />
+        </div>
+        <div class="info">
+          <h3>Computadora de Escritorio Completa</h3>
+          <div class="subInfo">
+            <strong class="price">$170.800</strong>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i id="vacio" class="fas fa-star"></i>
+            </div>
+          </div>
+      </a>
+    </div>
+    </div>
+    <div class="box" data-category="Smartphones">
+      <a href="./details/celg71.html">
+        <div class="image">
+          <img src="images/celular motorola G71 5G 128GB azul ($85.000).jpg" alt="celular motorola G71" />
+        </div>
+        <div class="info">
+          <h3>Celular Motorola G71</h3>
+          <div class="subInfo">
+            <strong class="price">$85.000</strong>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <i id="vacio" class="fas fa-star"></i>
+            </div>
+          </div>
+      </a>
+    </div>
+    </div>
+    <div class="box" data-category="Smartphones">
+      <div class="image">
+        <img src="images/celular apple iPhone 13 5G 256GB Azul ($660.999).jpg" alt="celular apple" />
+      </div>
+      <div class="info">
+        <h3>Celular Apple IPhone 13</h3>
+        <div class="subInfo">
+          <strong class="price">$660.999</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
           </div>
         </div>
       </div>
-  
+    </div>
+
+    <div class="box" data-category="Smartphones">
+      <div class="image">
+        <img src="images/note9.png" alt="Note9">
+      </div>
+      <div class="info">
+        <h3>Xiaomi Redmi Note 9</h3>
+        <div class="subInfo">
+          <strong class="price">$129.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Hardware">
+      <div class="image">
+        <img src="images/rog-strix-scar.png" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Asus Rog Strix Scar 15</h3>
+        <div class="subInfo">
+          <strong class="price">$1.100.100</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/airmax.png" alt="Nike Air Max" />
+      </div>
+      <div class="info">
+        <h3>Nike Air Max 90G</h3>
+        <div class="subInfo">
+          <strong class="price">$49.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/campera canguro ($6.000).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Campera Canguro de Hombre</h3>
+        <div class="subInfo">
+          <strong class="price">$6.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/itachi sasuke- remera algodon ($3.400).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Remera de Algodon - Itachi Sasuke</h3>
+        <div class="subInfo">
+          <strong class="price">$3.400</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/remera camiseta deportiva ($1.900).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Camiseta Deportiva </h3>
+        <div class="subInfo">
+          <strong class="price">$1.900</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/shots con calza de hombre ($7.200).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Shots Calza Hombre</h3>
+        <div class="subInfo">
+          <strong class="price">$7.200</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/pantalon babucha engomada ($9.000).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Babucha Engomada</h3>
+        <div class="subInfo">
+          <strong class="price">$9.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/zapatillas galaxy 6 ($17.000).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Zapatillas Galaxy 6</h3>
+        <div class="subInfo">
+          <strong class="price">$17.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/zapatillas nike downshifter 11 de mujer ($28.000).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Zapatillas Nike Downshifter</h3>
+        <div class="subInfo">
+          <strong class="price">$28.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/zapatillas nike revolution ($25.000).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Zapatillas Nike Revolution</h3>
+        <div class="subInfo">
+          <strong class="price">$25.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/remera ranglan blanca-negra ($3.000).webp" alt="Asus Rog Notebook" />
+      </div>
+      <div class="info">
+        <h3>Remera Blanca-Negra </h3>
+        <div class="subInfo">
+          <strong class="price">$3.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/airmax.png" alt="Nike Air Max" />
+      </div>
+      <div class="info">
+        <h3>Nike Air Max 90G</h3>
+        <div class="subInfo">
+          <strong class="price">$54.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/pantalones.png" alt="Jeans Hombre" />
+      </div>
+      <div class="info">
+        <h3>Jeans Hombre Rectos Clasicos</h3>
+        <div class="subInfo">
+          <strong class="price">$6.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/shirt.png" alt="Remera Mujer" />
+      </div>
+      <div class="info">
+        <h3>Remera Blanca de Mujer</h3>
+        <div class="subInfo">
+          <strong class="price">$3.500</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Indumentaria">
+      <div class="image">
+        <img src="images/adidas-ultraboost.png" alt="Adidas Ultraboost" />
+      </div>
+      <div class="info">
+        <h3>Adidas Ultraboost 21</h3>
+        <div class="subInfo">
+          <strong class="price">$50.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Hardware">
+      <div class="image">
+        <img src="images/rog-strix-3090.png" alt="Placa de Video Asus ROG Strix 3090" />
+      </div>
+      <div class="info">
+        <h3>Placa de Video Asus ROG Strix 3090</h3>
+        <div class="subInfo">
+          <strong class="price">$540.000</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Juguetes">
+      <div class="image">
+        <img src="images/lego.png" alt="Legos" />
+      </div>
+      <div class="info">
+        <h3>Caja de Legos para armar</h3>
+        <div class="subInfo">
+          <strong class="price">$8.350</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Juguetes">
+      <div class="image">
+        <img src="" alt="auto a control remoto" />
+      </div>
+      <div class="info">
+        <h3>Auto a Radio Control Remoto</h3>
+        <div class="subInfo">
+          <strong class="price">$15.350</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" data-category="Juguetes">
+      <div class="image">
+        <img src="" alt="dino a pila" />
+      </div>
+      <div class="info">
+        <h3>Dinosaurio a pila</h3>
+        <div class="subInfo">
+          <strong class="price">$6.300</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="box" data-category="Juguetes">
       <div class="image">
         <img src="" alt="juegos contruccion" />
@@ -605,226 +601,224 @@
         </div>
       </div>
     </div>
-  
-  <div class="box" data-category="Juguetes">
-    <div class="image">
-      <img src="" alt="karting a pedal" />
-    </div>
-    <div class="info">
-      <h3>Karting a pedal deportivo</h3>
-      <div class="subInfo">
-        <strong class="price">$17.500</strong>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
+
+    <div class="box" data-category="Juguetes">
+      <div class="image">
+        <img src="" alt="karting a pedal" />
+      </div>
+      <div class="info">
+        <h3>Karting a pedal deportivo</h3>
+        <div class="subInfo">
+          <strong class="price">$17.500</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  <div class="box" data-category="Juguetes">
-    <div class="image">
-      <img src="" alt="monopatin" />
-    </div>
-    <div class="info">
-      <h3>Monopatin de aluminio con luz led (varios colores)L</h3>
-      <div class="subInfo">
-        <strong class="price">$8.350</strong>
-        <div class="stars">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star-half-alt"></i>
-          <i id="vacio" class="fas fa-star"></i>
+
+    <div class="box" data-category="Juguetes">
+      <div class="image">
+        <img src="" alt="monopatin" />
+      </div>
+      <div class="info">
+        <h3>Monopatin de aluminio con luz led (varios colores)L</h3>
+        <div class="subInfo">
+          <strong class="price">$8.350</strong>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <i id="vacio" class="fas fa-star"></i>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    </div>
 
-      <h3 class="table-title">Tabla de talles de Calzados</h3>
-      <div class="size-table">
-        <table class="table-women">
-          <tr>
-            <th>Cm</th>
-            <th>ARG</th>
-            <th>EUR</th>
-            <th>USA</th>
-          </tr>
-          <tr>
-            <td>22.5</td>
-            <td>35</td>
-            <td>36</td>
-            <td>4.0</td>
-          </tr>
-          <tr>
-            <td>23.5</td>
-            <td>36</td>
-            <td>37</td>
-            <td>4.5</td>
-          </tr>
-          <tr>
-            <td>24</td>
-            <td>37</td>
-            <td>38</td>
-            <td>5.5</td>
-          </tr>
-          <tr>
-            <td>24.5</td>
-            <td>38</td>
-            <td>39</td>
-            <td>6.5</td>
-          </tr>
-          <tr>
-            <td>25</td>
-            <td>39</td>
-            <td>40</td>
-            <td>7</td>
-          </tr>
-          <tr>
-            <td>26</td>
-            <td>40</td>
-            <td>41</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td>26.5</td>
-            <td>41</td>
-            <td>42</td>
-            <td>8.5</td>
-          </tr>
-        </table>
-        <table class="table-men">
-          <tr>
-            <th>Cm</th>
-            <th>ARG</th>
-            <th>EUR</th>
-            <th>USA</th>
-          </tr>
-          <tr>
-            <td>27</td>
-            <td>42</td>
-            <td>43</td>
-            <td>9</td>
-          </tr>
-          <tr>
-            <td>27.5</td>
-            <td>43</td>
-            <td>44</td>
-            <td>9.5</td>
-          </tr>
-          <tr>
-            <td>28</td>
-            <td>44</td>
-            <td>45</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>28.5</td>
-            <td>45</td>
-            <td>46</td>
-            <td>10.5</td>
-          </tr>
-          <tr>
-            <td>29</td>
-            <td>46</td>
-            <td>47</td>
-            <td>11</td>
-          </tr>
-          <tr>
-            <td>29.5</td>
-            <td>47</td>
-            <td>48</td>
-            <td>11.5</td>
-          </tr>
-          <tr>
-            <td>30</td>
-            <td>48</td>
-            <td>49</td>
-            <td>12</td>
-          </tr>
-        </table>
+    <h3 class="table-title">Tabla de talles de Calzados</h3>
+    <div class="size-table visibility">
+      <table class="table-women">
+        <tr>
+          <th>Cm</th>
+          <th>ARG</th>
+          <th>EUR</th>
+          <th>USA</th>
+        </tr>
+        <tr>
+          <td>22.5</td>
+          <td>35</td>
+          <td>36</td>
+          <td>4.0</td>
+        </tr>
+        <tr>
+          <td>23.5</td>
+          <td>36</td>
+          <td>37</td>
+          <td>4.5</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>37</td>
+          <td>38</td>
+          <td>5.5</td>
+        </tr>
+        <tr>
+          <td>24.5</td>
+          <td>38</td>
+          <td>39</td>
+          <td>6.5</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td>39</td>
+          <td>40</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>40</td>
+          <td>41</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>26.5</td>
+          <td>41</td>
+          <td>42</td>
+          <td>8.5</td>
+        </tr>
+      </table>
+      <table class="table-men">
+        <tr>
+          <th>Cm</th>
+          <th>ARG</th>
+          <th>EUR</th>
+          <th>USA</th>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>42</td>
+          <td>43</td>
+          <td>9</td>
+        </tr>
+        <tr>
+          <td>27.5</td>
+          <td>43</td>
+          <td>44</td>
+          <td>9.5</td>
+        </tr>
+        <tr>
+          <td>28</td>
+          <td>44</td>
+          <td>45</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>28.5</td>
+          <td>45</td>
+          <td>46</td>
+          <td>10.5</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>46</td>
+          <td>47</td>
+          <td>11</td>
+        </tr>
+        <tr>
+          <td>29.5</td>
+          <td>47</td>
+          <td>48</td>
+          <td>11.5</td>
+        </tr>
+        <tr>
+          <td>30</td>
+          <td>48</td>
+          <td>49</td>
+          <td>12</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <!-- fin del section -->
+
+  <!-- inicio del footer  -->
+
+  <footer class="footer">
+    <div class="box-container">
+      <div class="box">
+        <p>
+          Mercado Digital es una compañía de tecnología que ofrece servicios
+          vinculados principalmente al comercio electrónico y a los pagos
+          digitales. Quien quiera usar nuestros servicios, deberá completar el
+          formulario de registro con los datos que le sean requeridos. Mercado
+          Digital no se hace cargo de rupturas de paquetes, extravíos por
+          parte de la empresa de envío a cargo.
+        </p>
       </div>
-    </section>
-    <!-- fin del section -->
 
-    <!-- inicio del footer  -->
+      <div class="box">
+        <h3>Links</h3>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Catálogo</a>
+        <a href="registro.html">Registro</a>
+      </div>
 
-    <footer class="footer">
-      <div class="box-container">
+      <div class="box">
+        <h3>Contactanos</h3>
+        <p>
+          <i class="fas fa-home"></i>
+          Leandro Alem 610 - B7000 Tandil, Provincia de buenos aires, Argentina
+        </p>
+        <p>
+          <i class="fas fa-phone"></i>
+          0249 1224464
+        </p>
+        <p>
+          <i class="fa-brands fa-facebook"></i>
+          Mercado Digital.Oficial
+        </p>
+        <p>
+          <i class="fa-brands fa-instagram"></i>
+          @MercadoDigital.oficial
+        </p>
+        <p>
+          <i class="fa-brands fa-whatsapp"></i>
+          +542494001245
+        </p>
+        <p>
+          <i class="fa-regular fa-envelope"></i>
+          MercadoDigital.oficial@gmail.com
+        </p>
         <div class="box">
-          <p>
-            Mercado Digital es una compañía de tecnología que ofrece servicios
-            vinculados principalmente al comercio electrónico y a los pagos
-            digitales. Quien quiera usar nuestros servicios, deberá completar el
-            formulario de registro con los datos que le sean requeridos. Mercado
-            Digital no se hace cargo de rupturas de paquetes, extravíos por
-            parte de la empresa de envío a cargo.
-          </p>
-        </div>
-
-        <div class="box">
-          <h3>Links</h3>
-          <a href="index.html">Inicio</a>
-          <a href="productos.html">Catálogo</a>
-          <a href="registro.html">Registro</a>
-        </div>
-
-        <div class="box">
-          <h3>Contactanos</h3>
-          <p>
-            <i class="fas fa-home"></i>
-            Leandro Alem 610 - B7000 Tandil, Provincia de buenos aires, Argentina
-          </p>
-          <p>
-            <i class="fas fa-phone"></i>
-            0249 1224464
-          </p>
-          <p>
-            <i class="fa-brands fa-facebook"></i>
-            Mercado Digital.Oficial
-          </p>
-          <p>
-            <i class="fa-brands fa-instagram"></i>
-            @MercadoDigital.oficial
-          </p>
-          <p>
-            <i class="fa-brands fa-whatsapp"></i>
-            +542494001245
-          </p>
-          <p>
-            <i class="fa-regular fa-envelope"></i>
-            MercadoDigital.oficial@gmail.com 
-          </p>
-          <div class="box">
-            <h3><i class="fa-solid fa-lock"></i>  Sitio seguro</h3>
-            <p>Protegemos tus datos.</p>
+          <h3><i class="fa-solid fa-lock"></i> Sitio seguro</h3>
+          <p>Protegemos tus datos.</p>
         </div>
       </div>
 
       <a id="backtotop" href="#top"><i class="fa-solid fa-angles-up"></i></a>
-      
+
       <h1 class="rights">
         Sitio creado por <span>Jano y Reutsib</span> | Copyright © 2022 todos
         los derechos reservados.
       </h1>
-    </footer>
+  </footer>
 
-    <!-- fin del footer -->
+  <!-- fin del footer -->
 
-    <!--nuevos íconos -->
+  <!--nuevos íconos -->
 
-    <script
-      src="https://kit.fontawesome.com/bc77e1aff3.js"
-      crossorigin="anonymous"
-      defer
-    ></script>
+  <script src="https://kit.fontawesome.com/bc77e1aff3.js" crossorigin="anonymous" defer></script>
 
-    <!-- script -->
-    <script src="./js/backtotop.js" defer></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  </body>
+  <!-- script -->
+  <script src="./js/backtotop.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="js/btn-table.js"></script>
+</body>
+
 </html>

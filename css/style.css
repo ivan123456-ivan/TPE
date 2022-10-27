@@ -753,3 +753,8 @@ td {
 input[type="radio"] {
   display: none;
 }
+
+
+.visibility{
+  display: none;
+}
