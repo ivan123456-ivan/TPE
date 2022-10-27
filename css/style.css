@@ -390,8 +390,9 @@ header .header-2.header-active {
   margin: 2rem;
 }
 
+/* tamaño de no se exactamente que*/
 .footer .box-container .box .logo {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
 }
 
@@ -399,25 +400,28 @@ header .header-2.header-active {
   color: var(--blue);
 }
 
+/* resto del texto del footer */
 .footer .box-container .box p {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 1rem 0;
   color: #666;
 }
 
+/* titulos del footer */
 .footer .box-container .box h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: var(--blue);
 }
 
 .footer .box-container .box:nth-child(2) {
-  text-align: center;
+  text-align: left;
 }
 
+/* links del footer */
 .footer .box-container .box:nth-child(2) a {
   display: block;
-  font-size: 2rem;
-  padding: 0.4rem 0;
+  font-size: 1.7rem;
+  padding: 1rem 0;
   color: #666;
 }
 
@@ -425,6 +429,7 @@ header .header-2.header-active {
   text-decoration: underline;
 }
 
+/* derechos del footer */
 .footer .rights {
   text-align: center;
   width: 85%;
@@ -432,7 +437,7 @@ header .header-2.header-active {
   padding: 1.4rem 0;
   border-top: 0.1rem solid rgba(0, 0, 0, 0.3);
   color: #666;
-  font-size: 2rem;
+  font-size: 1.2rem;
   padding-bottom: 5rem;
 }
 
