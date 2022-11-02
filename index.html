@@ -11,7 +11,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
-
+    <link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet"
+    crossorigin="anonymous">
     <!-- link del archivo css  -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -45,44 +46,49 @@
     </header>
 
     <!-- fin del header -->
-
+    
     <!-- inicio del home  -->
 
+
     <section class="home" id="home">
-      <div class="home-slider">
-        <div class="item">
-          <img src="images/home_img1.jpg" alt="hardware" />
-          <div class="content">
-            <h3>Descuentos de hasta el 40%</h3>
-            <p>
-              Black friday!
-              En todo el hardware gaming de todas las marcas seleccionadas!
-            </p>
-            <a href="productos.html"><button class="btn">Ver mas</button></a>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/home_img2.jpg" alt="indumentaria" />
-          <div class="content">
-            <h3>La mayoría de las marcas en tu pais</h3>
-            <p>
-              En nuestra tienda vas a encontrar todo tipo de productos, 
-              desde los mas economicos a los de diseñadores exclusivos...
-            </p>
-            <a href="#"><button class="btn">Pronto...</button></a>
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="images/home_img3.jpg" alt="verduleria" />
-          <div class="content">
-            <h3>Variedad de alimentos</h3>
-            <p>
-              La mejor calidad llevada a tu mesa de manera online!
-            </p>
-            <a href="#"><button class="btn">Pronto...</button></a>
-          </div>
+      <div class="swiffy-slider">
+        <ul class="slider-container">
+          <li class="home1"><img src="images/home_img1.jpg" alt="Portada 1">
+            <div class="content">
+              <h3>Descuentos de hasta el 40%</h3>
+              <p>
+                <strong>Black friday!
+                  En todo el hardware gaming de todas las marcas seleccionadas!</strong>
+              </p>
+              <a href="productos.html"><button class="btn">Ver mas</button></a>
+          </li>
+          <li class="home2"><img src="images/home_img2.jpg" alt="Portada 2">
+            <div class="content">
+              <h3>La mayoría de las marcas en tu pais</h3>
+              <p>
+                <strong>En nuestra tienda vas a encontrar todo tipo de productos, desde los mas economicos a los de diseñadores exclusivos...</strong>
+              </p>
+              <a href="productos.html"><button class="btn">Ver mas</button></a>
+          </li>
+          </li>
+          <li class="home3"><img src="images/home_img3.jpg" alt="Portada 3">
+            <div class="content">
+              <h3>Variedad de alimentos</h3>
+              <p>
+                <strong>La mejor calidad llevada a tu mesa de manera online!</strong>
+              </p>
+              <a href="productos.html"><button class="btn">Ver mas</button></a>
+          </li>
+          </li>
+        </ul>
+  
+        <button type="button" class="slider-nav"></button>
+        <button type="button" class="slider-nav slider-nav-next"></button>
+  
+        <div class="slider-indicators">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
         </div>
       </div>
     </section>
@@ -119,22 +125,7 @@
         </div>
 
         <div class="box">
-          <h3>Links</h3>
-          <a href="index.html">Inicio</a>
-          <a href="productos.html">Catálogo</a>
-          <a href="registro.html">Registro</a>
-        </div>
-
-        <div class="box">
-          <h3>Contactanos</h3>
-          <p>
-            <i class="fas fa-home"></i>
-            Leandro Alem 610 - B7000 Tandil, Provincia de buenos aires, Argentina
-          </p>
-          <p>
-            <i class="fas fa-phone"></i>
-            0249 1224464
-          </p>
+          <h3>Redes Sociales</h3>
           <p>
             <i class="fa-brands fa-facebook"></i>
             Mercado Digital.Oficial
@@ -142,6 +133,20 @@
           <p>
             <i class="fa-brands fa-instagram"></i>
             @MercadoDigital.oficial
+          </p>
+          <h3><i class="fa-solid fa-lock"></i>  Sitio seguro</h3>
+          <p>Protegemos tus datos.</p>
+        </div>
+
+        <div class="box">
+          <h3>Contactanos</h3>
+          <p>
+            <i class="fas fa-home"></i>
+            Leandro Alem 610 - B7000 Tandil, Buenos Aires, Argentina
+          </p>
+          <p>
+            <i class="fas fa-phone"></i>
+            0249 1224464
           </p>
           <p>
             <i class="fa-brands fa-whatsapp"></i>
@@ -151,10 +156,7 @@
             <i class="fa-regular fa-envelope"></i>
             MercadoDigital.oficial@gmail.com 
           </p>
-          <div class="box">
-            <h3><i class="fa-solid fa-lock"></i>  Sitio seguro</h3>
-            <p>Protegemos tus datos.</p>
-        </div>
+          
       </div>
 
       <h1 class="rights">
@@ -167,6 +169,7 @@
     <!--nuevos íconos -->
 
     <script src="https://kit.fontawesome.com/bc77e1aff3.js" crossorigin="anonymous" defer></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
   </body>
 </html>
