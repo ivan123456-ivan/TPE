@@ -573,7 +573,7 @@ table td, .table-title, .gallery .image-container .box .image, .gallery .control
 .btn, header .header-1 .form-container form label, .heading span, header .header-1 .logo, header .header-2 .navbar ul li a, header .header-2 .icons a, .gallery .image-container .details .box .info .subInfo p, .newsletter p, .footer .box-container .box .logo, .newsletter form input[type="email"], .footer .box-container .box h3, .gallery .image-container .box .info h3, .gallery .image-container .box .info .subInfo .price {
   font-size: 2rem;
 }
-header .header-1 .form-container form, header .header-2 .navbar ul, .table-title, .footer .box-container, #registro, .newsletter form, .details, header .header-1, header .header-2, .gallery .image-container .details .box .info .subInfo, .gallery .image-container .details .box .info .subInfo button, .size-table {
+header .header-1 .form-container form, .already-login strong, header .header-2 .navbar ul, .table-title, .footer .box-container, #registro, .newsletter form, .details, header .header-1, header .header-2, .gallery .image-container .details .box .info .subInfo, .gallery .image-container .details .box .info .subInfo button, .size-table {
   display: flex;
 }
 .home .home-slider .item img,.home1 img, .home2 img, #backtotop i, .home3 img, .home4 img, .ctn-tag, .gallery .image-container .details, header .header-1, header .header-2, .home .home-slider .item img, .gallery .image-container .box .image img, .gallery .image-container .box .info {
