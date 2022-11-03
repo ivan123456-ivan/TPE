@@ -469,7 +469,7 @@ header .header-2.header-active {
   padding: 0.5em;
   margin: 1em 0 0 0;
   background-color: whitesmoke;
-  color: cadetblue;
+  color: rgb(35, 65, 131, 0.9995);
   text-align: center;
   text-decoration: underline;
   text-transform: uppercase;
@@ -478,7 +478,7 @@ header .header-2.header-active {
 }
 
 .already-login {
-  color: cadetblue;
+  color: rgb(35, 65, 131, 0.9995);
   margin: 2%;
 }
 
@@ -508,11 +508,12 @@ header .header-2.header-active {
   height: 4rem;
   width: 50rem;
   outline: none;
-  border: 0.2rem solid #666;
+  border: 0.2rem solid rgb(231, 230, 230);
   font-size: 1.5rem;
   padding: 0 1rem;
   margin-top: 1em;
   margin-bottom: 1em;
+  border-radius: 20px;
 }
 label,
 strong {
@@ -531,11 +532,12 @@ strong {
   height: 4rem;
   width: 18rem;
   outline: none;
-  border: 0.2rem solid #666;
+  border: 0.2rem solid rgb(231, 230, 230);
   font-size: 1.5rem;
   padding: 0 1rem;
   margin-top: 1em;
   margin-bottom: 1em;
+  border-radius: 20px;
 }
 
 #botonCaptcha {
