@@ -695,14 +695,14 @@ input .accept-terms {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 3em;
+  font-size: 2em;
   color: var(--blue);
-  border: 0.1em solid rgb(155, 216, 245);
+  border: 0.0em solid rgb(155, 216, 245);
   margin: 0 6em;
 }
 
 table th {
-  color: #000;
+  color: rgb(45, 76, 142);
   font-weight: 700;
 }
 
@@ -714,7 +714,7 @@ table,
 tr,
 th,
 td {
-  border: 0.065em solid rgb(15, 3, 5);
+  border: 0.010em solid rgb(187, 197, 218);
 }
 
 .table-men {
