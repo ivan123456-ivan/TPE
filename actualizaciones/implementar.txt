@@ -1,3 +1,0 @@
-Incluir promos de ciertos productos.
-Realizar sorteos para promocionar la página.
-Futuro Botón para desplegar la tabla de talles disponibles para cada calzado, en vez de tener la tabla ocupando lugar en la pagina de productos.

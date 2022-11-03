@@ -1,0 +1,22 @@
+- La idea principal es poder llegar a todo el pais generando asi un reconocimiento en la argentina. 
+- Otra idea mas a futuro seria expandirnos internacionalmente, logrando asi que nos reconozcan en cualquier parte del mundo como pasa con cocacola, etc.
+- Opciones de movilidad para llegar a todo el pais: correo argentino, la sucursal andreani y OCA.
+- Agregar alimentos 100% naturales.
+- Incluir promos de ciertos productos.
+- Realizar sorteos para promocionar la página.
+- Futuro Botón para desplegar la tabla de talles disponibles para cada calzado, en vez de tener la tabla ocupando lugar en la pagina de productos. 
+  (Boton para desplegar tablas de talles agregado)
+- Generar una linea de credito propia o tercerizada para la compra de cualquier producto de la página.
+- Agregar descripcion de productos. 
+  (Descripciones agregadas)
+- Modificar precios de pesos a dolares.
+- Modificar imagenes de la pagina de inicio. 
+  (Imagenes modificadas)
+- Modificar tabla de talles. 
+  (Tabla de talles modificada)
+- Nuevos productos. 
+  (Nuevos productos agregados)
+- Agregar formas de pago.
+- Agregar promociones.
+- Agregar sección de perfumeria y maquillaje.
+

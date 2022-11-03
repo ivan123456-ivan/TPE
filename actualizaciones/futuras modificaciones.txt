@@ -1,8 +1,0 @@
-Agregar descripcion de productos
-Modificar precios de pesos a dolares
-Modificar imagenes a la pagina de inicio
-Modificar tabla de talles
-Nuevos productos
-Agregar formas de pago
-Agregar promociones
-
