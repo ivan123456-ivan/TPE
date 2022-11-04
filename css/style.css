@@ -248,6 +248,7 @@ header .header-1 .form-container form #search {
 
 header .header-1 .form-container form #search:focus {
   border-color: rgb(38, 101, 237);
+  border-radius: 5px;
 }
 
 header .header-1 .form-container form label {
@@ -554,6 +555,14 @@ input .accept-terms {
   margin-bottom: 1em;
 }
 
+.accept-terms strong{
+  font-size: 1.5rem;
+}
+
+.accept-terms{
+  font-size: 1.4rem;
+}
+
 .register-btn {
   margin-top: 0.3em;
   border-radius: 5rem;
@@ -569,6 +578,7 @@ input .accept-terms {
   margin: 0.5em 0 0.5em 0;
   position: relative;
   left: -0.2em;
+  font-size: medium;
 }
 
 .gallery {
